@@ -3,7 +3,6 @@ module.exports = function(app) {
 	// server routes ===========================================================
 	// handle things like api calls
 	// authentication routes
-	var router = express.Router();
 	router.use(function(req, res, next) {
 	    // do logging
 	    console.log('Something is happening.');
